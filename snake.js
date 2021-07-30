@@ -11,7 +11,7 @@ export function draw(gameBoard) {
         const snakeElement = document.createElement("div");
         snakeElement.style.gridRowStart = segment.x;
         snakeElement.style.gridColumnStart = segment.y;
-        snakeElement.style.classList.add("snake");
+        snakeElement.classList.add("snake");
         gameBoard.appendChild(snakeElement);
     })
 }
